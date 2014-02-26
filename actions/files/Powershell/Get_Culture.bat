@@ -1,0 +1,2 @@
+powershell Get-Culture -Verbose
+

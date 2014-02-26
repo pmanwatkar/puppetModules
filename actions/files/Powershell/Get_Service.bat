@@ -1,0 +1,4 @@
+powershell Get-Service
+
+
+

@@ -1,0 +1,38 @@
+{
+  "description": "An Haproxy module for Redhat family OSes using Storeconfigs",
+  "types": [
+
+  ],
+  "summary": "Haproxy Module",
+  "dependencies": [
+    {
+      "name": "ripienaar/concat",
+      "version_requirement": ">= 0.1.0"
+    }
+  ],
+  "author": "Puppet Labs",
+  "version": "0.2.0",
+  "source": "git://github.com/puppetlabs/puppetlabs-haproxy",
+  "checksums": {
+    "manifests/listen.pp": "a818a9d7bc54c39b4d1480f7a8522eed",
+    "templates/haproxy_listen_block.erb": "6e67bef65107a2094edc95d4209dee85",
+    "spec/defines/balancermember_spec.rb": "0788c08fd357180e27d5d12b92b4824f",
+    "Rakefile": "0254db5d3fc38c67a2c160d7296a24f8",
+    "manifests/params.pp": "ebf3a54ee697d8a3099b8fdec711703d",
+    "CHANGELOG": "44ba3204e51bff11c48784407e89cedb",
+    "tests/init.pp": "3fbdb231c277bc1295d42e1869b3d49d",
+    "Modulefile": "dd04d09055351629435ad61f489058dd",
+    "templates/haproxy-base.cfg.erb": "0af10e0a3495628f55c0a9f111d3aa8a",
+    "spec/defines/listen_spec.rb": "95d91817779fee52ed31afbd0b9d13b1",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "spec/classes/haproxy_spec.rb": "522c0a2c988ff3b36daae1bb419d9442",
+    "manifests/init.pp": "bda2446f2e33522762945bd4cf0e0c28",
+    "templates/haproxy_balancermember.erb": "a60c1cae56eedef21ba181315626865d",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "README.md": "87294bb464eda81a951328fabc0416fd",
+    "manifests/balancermember.pp": "fe7bd4156f2b8a2309f701cfeaad20a1"
+  },
+  "license": "Apache License, Version 2.0",
+  "name": "zack-haproxy",
+  "project_page": "http://github.com/puppetlabs/puppetlabs-haproxy"
+}

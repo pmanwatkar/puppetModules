@@ -1,0 +1,55 @@
+945210100125600
+
+Arpit Tripathi
+
+
+5624-4000= 1624
+
+
+
+
+Pranay kumar manwatkar
+945210100125596
+
+
+Task to do today---
+
+(1) read complete WAH pdf 
+(2) mysql cluster
+(3) repond on BMC ticket
+(4) puppet
+(5) iSCSI
+
+.244
+Administrator
+abcd@1234
+
+
+.181
+root
+Admin098
+
+
+
+
+http://www.youtube.com/watch?v=_MMzUsZ2jjo
+
+class lamp{
+package { "httpd":
+ensure => present
+}
+service { "httpd":
+ensure => running,
+require => Package["httpd"],
+}
+package { "mysql-server":
+ensure => present
+}
+service { "mysqld":
+ensure => running,
+require => Package["mysql-server"],
+}
+package { "php-mysql":
+ensure => present
+}
+}
