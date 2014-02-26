@@ -1,0 +1,3 @@
+<% Array(ipaddresses).zip(Array(server_names)).each do |ipaddress,host| -%>
+  server <%= host %> <%= ipaddress %> <%= Array(options).join(" ") %>
+<% end %>
